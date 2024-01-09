@@ -1,0 +1,19 @@
+Last Lecture Agenda
+1 Operators
+	airthnetic,logical,relational,assignment,ternar,unary
+	== ,===
+2 Sequential Statement
+	if,if-else, switch ,break,continue 
+3 Loop Statement
+	while, do-while,for 
+4 var Vs let Vs const 
+	
+5 Functions 
+	
+
+Today's Lecture Agenda
+1 Functions
+2 anonymous function
+3 fat arrow function
+4 optional parameter function
+5 default parameter function
