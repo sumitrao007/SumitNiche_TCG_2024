@@ -1,0 +1,36 @@
+Last Lecture Agenda
+1 Type assertion
+	any/Object/unknown
+	let a:any;
+	let temp=(<string> a);
+	let temp=(a as string)
+2 Basics of array 
+	let a:number[]=[....];
+	let a:number[]=[];
+	let a=[....];
+	let a:any[]=[....];
+	
+	console.log(a);
+	
+3 join method
+	console.log(a.join("  "))
+4 foreach
+	a.foreach((myvalue)=>{
+		....
+	})
+5 rest parameter function
+	function display(...item:number[]){
+	...
+	}
+	display(10,...)
+6 push & pop method
+	a.push(10,20)
+	let res=a.pop()
+
+Today's Lecture Agenda
+1 splice method 
+2 slice method 
+3 map method 
+4 array destructor 
+5 what is meanining of shallow copy & deep copy 
+
