@@ -1,0 +1,24 @@
+Last Lecture Agenda
+1 splice method 
+	a.splice(2,0,45)
+	a.splice(2,0,40,56,32);
+	a.splice(2,1);
+	a.splice(2,1,56);
+2 slice method 
+	let temp= a.slice(1,5)
+3 map method 
+	let sqrarr= a.map((value)=>{
+		return value*value;
+	})
+4 array destructor 
+	let [a,b]=arr;
+	let [a,...arr]=arr1;
+5 what is meanining of shallow copy & deep copy 
+	
+
+Today's Lecture Agenda
+1 swap the 2 values without using 3rd variable 
+2 return multiple value from the function
+3 json Object
+4 Array of Object
+
