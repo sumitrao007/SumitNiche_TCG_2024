@@ -1,0 +1,67 @@
+Last Lecture Agenda
+1 swap the values without using 3rd variable 
+	let a=10;
+	let b=20;
+	
+	[a,b]=[b,a];
+	
+2 return multiple value from the function
+	function operation(a:number,b:number){
+		return [a+b,a-b,a*b];
+	}
+	
+	let [add,sub,mul]=operation(10,2);
+	
+3 json Object
+	let obj={
+		id:9,
+		fname:'sumit',
+		lname:'...'
+	}
+		obj.id ,obj.fname
+4 Array of Object
+	
+	let arrobj=[
+		{
+		id:9,
+		fname:'sumit',
+		lname:'...',
+		country:{
+			cid:1,
+			cname:'India'
+		},
+		month:["..."],
+		result:[
+			{
+				subj:...,
+				marks:...
+			}
+		]
+		},
+			{
+		id:9,
+		fname:'sumit',
+		lname:'...'
+		},
+		...
+	];
+	
+	for(let i=0;i<arrobj.length;i++){
+		arrobj[i].id 
+		arrobj[i].country.cname
+		arrobj[i].month.join(" ");
+		
+		arrobj[i].result.foreach((item)=>{
+			item.subj
+			item.marks
+		})
+		
+	}
+
+Today's Lecture Agenda
+1 Class, object,method,property
+2 access specifier
+3 constructor
+4 access in same pakage 
+5 access in different package 
+
