@@ -1,0 +1,48 @@
+Last Lecture Agenda
+1 Class, object,method,property
+	
+	
+export	class Myclass{
+		public id:number;
+		...
+		
+		constructor(id:number,....){
+			this.id=id;
+		}
+		
+		display(){
+			console.log(`
+				id :: ${this.id}
+				...
+			`)
+		}
+	}
+	
+	let obj=new Myclass(9,....);
+	obj.display();
+	
+	export  function add(a:number,b:number){
+		return (a+b)
+	}
+	
+	export const pi=3.14;
+	
+	
+	demo2.ts 
+	import {Myclass,add,pi} from './demo1';
+	
+	...
+	...
+	
+	
+2 access specifier
+3 constructor
+4 access in same pakage 
+5 access in different package
+
+Today's Lecture Agenda
+1 Inheritance
+2 Method Override
+3 Interface
+4 Composition => has a relationship
+
