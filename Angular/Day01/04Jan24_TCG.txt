@@ -1,0 +1,133 @@
+Last Lecture Agenda
+1 Inheritance
+2 Method Override
+	
+	export class Shape{
+		Myarea(){
+		....
+		}
+	}
+	
+	export class Circle extends Shape{
+		
+		constructor(r:number){
+			super();
+			...
+		}
+		
+		override Myarea(){
+			....
+		}
+		display(){
+		...
+		}
+		
+	}
+	
+	export class Rectangle extends Shape{
+	
+	...
+	}
+	
+	let obj=new Circle(2);
+	obj.Myarea();
+	obj.display();
+	...
+
+3 Interface
+4 Composition => has a relationship
+
+	export interface Employee{
+		
+		fname:string;
+		..
+		fullname?:string;
+		display();
+	}
+	
+	export class EmployeeDetails impments Employee{
+			fname:string;
+			lname:string;
+			salary:number;
+			dept:Department;
+			constructor...{
+				this.dept=new Department(...)
+			}
+			
+			display(){
+			....
+			this.dept.getRole()
+			}
+			
+	}
+	
+	let empObj=new EmployeeDetails(...);
+	empObj.display();
+	
+	
+	export class Department{
+		private role:string;
+		constructor(){
+		...
+		}
+		
+		/setter & getter
+		....
+	}
+	
+	
+
+Today's Lecture Agenda
+1 Angular S/w Setup
+2 Angular arch.
+	- It is component orientated Arch.
+	- component 
+		1 View File => .html file => only 1 
+		2 Stylesheet => .css file => multiple 
+		3 component file => .ts file => only one 
+		4 testing => .spec.ts => 1 only
+		
+		@Componenet({
+			....
+		});
+	
+	- data binding 
+		- It flows a data from component to view 
+		- so it is called one way direction binding 
+		1 string interpolation
+		2 property binding 
+		3 style binding
+		4 class binding
+		5 Two way data binding
+		
+	- Event binding 
+	- data flow from view to component
+	- we use inbult event 
+		click,change,k/b,mouse ,custom event 
+	
+	App => Module File 
+		- It is collection of classess,interface,method,service,component,variable 
+		- every angular application has one root module 
+		- multiple others module also there => feature module / custom module 
+		
+		1 Declaration 
+			- to register ur component as well as your custom pipe 
+			- it creates a factory class (compile time) => it contains its object => it is singleton copy 
+			
+		2 import
+			- we only register our module 
+		3 services
+			- It is simple class 
+			- to register => it creates a singleton object 
+			- using Dependancy injecton
+		4 Routing
+			- to navigate from one component to another component
+			- we can send a data from component to other
+			- auth guard
+			- lazy loading 
+	- Injector
+		- u can inject 3rd party serices 
+		- u can inject inbuilt services 
+		- Dependancy injecton
+		
+
