@@ -1,0 +1,17 @@
+Last Lecture Agenda
+1 Application Flow
+2 How to Create component
+	1 Create component using manually
+	2 using CLI 
+	ng g c student
+
+
+Today's Lecture Agenda
+1 Data Binding
+	- data flow from component to view 
+	- It is called one way data binding binding 
+	1 string interpolation 
+	2 property binding
+	3 style binding
+	4 class binding
+2 String interpolation
