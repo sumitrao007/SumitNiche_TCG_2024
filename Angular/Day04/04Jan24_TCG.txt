@@ -1,0 +1,21 @@
+Last Lecture Agenda
+1 Data Binding
+	- data flow from component to view 
+	- It is called one way data binding binding 
+	1 string interpolation 
+	2 property binding
+	3 style binding
+	4 class binding
+2 String interpolation
+	<h2>{{name}}</h2>
+	<img src=" {{imgUrl}} "
+	
+	.ts 
+	name:string='...';
+	imgUrl:string='...'
+
+
+Today's Lecture Agenda
+1 Property Binding
+2 Difference between String interpolation Vs Property Binding
+3 Style binding
