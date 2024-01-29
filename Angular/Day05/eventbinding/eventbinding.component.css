@@ -1,0 +1,10 @@
+.imgClass{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.imgBorder{
+    border: 3px groove blue;
+}
