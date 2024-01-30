@@ -1,0 +1,26 @@
+<p>eventbinding2 works!</p>
+
+<!-- 
+    $event
+    - It is a Special Variable given by angular 
+    - It gives current DOM Element Infromation of that particular element
+    - u can only access its model(data) 
+    - It conatins a json Object
+-->
+
+<!-- <button (click)="onSend($event)" value="Doller Event..." >Send</button> -->
+
+<!-- 
+    Template ref variable 
+    - It gives DOM element information
+    - It holds the html element info=> It contains handle or Object of that element 
+    - U can access as well as manipulate the behaviour of any element 
+    - U can apply any HTML tag as well as any selector
+    - We have use # symbol to create template ref variable follwed by give its unique name
+-->
+
+<input type="text" #inputname placeholder="Enter the Name "><br><br>
+<button (click)="onSendData(inputname)" >Send Data</button> <hr>
+
+<input  type="text" #inputname1 placeholder="Enter the Name "><br><br>
+<button (click)="onSendData1(inputname1.value)">Send Data</button>
