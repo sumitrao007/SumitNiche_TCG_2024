@@ -1,0 +1,19 @@
+<p>eventbinding3 works!</p>
+
+<input #num1 type="number" placeholder="Enter the number1"><br><br>
+<input #num2 type="number" placeholder="Enter the number2"><br><br>
+<button (click)="onAddition(num1.value,num2.value)" >Addition</button><br><br>
+<input [value]="result" type="number" placeholder="Result"><br><br>
+
+<hr>
+<input #msg type="text" (change)="onChange(msg.value)" placeholder="Enter the name">
+<hr>
+
+<input type="text"  (keyup)="onKeyUp()" placeholder="key up event"><hr>
+
+<input type="text"  (keydown)="onKeyDown()" placeholder="key Down event">
+<hr>
+<input type="text" placeholder="Event Filtering" (keyup.enter)="onKeyFiltering()" >
+<hr>
+
+<button (click)="res=8+8" >Addition</button>{{res}}
