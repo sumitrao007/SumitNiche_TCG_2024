@@ -1,0 +1,20 @@
+Last Lecture Agenda
+1 Real time Example
+2 Change event 
+3 k/b event
+	1 keyup
+	2 keydown
+4 Event Fltering
+5 Event Binding without event Handler
+
+Today's Lecture Agenda
+1 Two way Data Binding
+2 How to configure model interface 
+3 Structural Directive
+	- U can update ur DOM Structur dynamically 
+	1 if directive
+	2 for directive
+	3 switch directive 
+4 if directive
+
+

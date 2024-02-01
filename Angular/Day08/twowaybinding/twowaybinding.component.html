@@ -1,0 +1,18 @@
+<p>twowaybinding works!</p>
+
+<!-- ngModel
+    - It is attribute directive
+    - If u want use ngModel for that one module has to be import i.e. FormsModule=> app.module.ts 
+    - U can apply any html tag
+    - we have bind a property 
+    - u will get updatated data 
+    - we have to use banana in the box noatation
+    [(ngModel)]="propertyName"
+-->
+
+<input type="text" [(ngModel)]="name"  placeholder="Enter the Name "> {{name}}
+<hr>
+<input [(ngModel)]="person.name" type="text" placeholder="enter th name"> <br><br>
+<input [(ngModel)]="person.emailid" type="text" placeholder="enter th emailid"> <br><br>
+<input [(ngModel)]="person.password" type="password" placeholder="enter th password"> <br><br>
+<button (click)="onSend()" >Send</button>
