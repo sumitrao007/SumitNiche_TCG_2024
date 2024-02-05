@@ -1,0 +1,12 @@
+Last Lecture Agenda
+1 for directive
+	
+2 Mouse Event
+	 1 mouseover
+	 2 mouseout
+
+Today's Lecture Agenda
+1 trackBy
+2 Switch directive
+
+
