@@ -1,0 +1,13 @@
+Last Lecture Agenda
+1 Component Interaction
+	- u can send data from one component to another component
+	- parent -child relationship 
+	
+2 @Input Decorator
+
+Today's Lecture Agenda
+1 @Output Decorator
+ - to send data from child component to parent component
+
+
+
