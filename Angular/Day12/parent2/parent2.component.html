@@ -1,0 +1,20 @@
+<p>parent2 works!</p>
+
+<div #mydiv>
+    <p>Display the Text in Div tag</p>
+</div>
+
+<div class="mainDiv">
+    <div class="btnDiv">
+        <button (click)="onAccessProperty()" >Access Property
+            
+        </button>
+        <button (click)="onAccessMethod()" >Access Method</button> <br><br>
+        <button (click)="onIncrement()" >Increment</button>
+        <button (click)="onDecrement()" >Decrement</button>
+    </div>
+    <div class="childdiv">
+        <app-child3></app-child3>
+    </div>
+</div>
+

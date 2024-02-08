@@ -1,0 +1,22 @@
+Last Lecture Agenda
+1 @Output Decorator
+ - to send data from child component to parent component
+ 
+	child2.ts
+	@Output() chidStrEvent=new EventEmitter();
+	
+	onSend(){
+		this.chidStrEvent.emit(this.strdata);
+	}
+ 
+ parent.html
+ ...
+ <app-child2 (chidStrEvent)="Childdata=$event"> 
+
+Today's Lecture Agenda
+1 @ViewChild
+	1 If u want to access Html element into ur component file directly 
+	2 if u want access child property Or method in parent ts file 
+
+
+
