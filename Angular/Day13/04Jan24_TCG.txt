@@ -1,0 +1,12 @@
+Last Lecture Agenda
+1 @ViewChild
+	1 If u want to access Html element into ur component file directly 
+	2 if u want access child property Or method in parent ts file 
+
+Today's Lecture Agenda
+1 Pipe
+	- It is used to transform ur data without changing its original value 
+2 Inbuilt Pipe 
+
+
+
