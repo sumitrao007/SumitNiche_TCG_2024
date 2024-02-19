@@ -1,0 +1,20 @@
+Last Lecture Agenda
+1 Pipe
+	- It is used to transform ur data without changing its original value 
+2 Inbuilt Pipe 
+percent
+
+Today's Lecture Agenda
+1 Custom Pipe 
+	1 manually 
+	2 using CLI => it creates a simple boiler plate code 
+		ng g p pipename 
+2 Pure pipe
+	 - By default it create a pure pipe 
+3 impure pipe 
+	- It always call every change in any property 
+	- It degrade ur Angular application performance 
+
+
+
+
