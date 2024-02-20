@@ -1,0 +1,46 @@
+Last Lecture Agenda
+1 Custom Pipe 
+	1 manually 
+	
+	@Pipe({
+		name:"summary",
+		pure:false
+	})
+	export class Summarypipe implements PipeTransform
+	{
+			transform(value:any,start:number=0,end:number=20){
+				let temp=(<string>value)
+				
+				temp.substring(start,end)
+			}
+	}
+	
+	
+	custompipe.html
+	
+	<h2> {{strdetails | summary}}</h2>
+	<h2> {{strdetails | summary:0:35}}</h2>
+	
+	2 using CLI => it creates a simple boiler plate code 
+		ng g p pipename 
+2 Pure pipe
+	 - By default it create a pure pipe 
+3 impure pipe 
+	- It always call every change in any property 
+	- It degrade ur Angular application performance 
+
+
+Today's Lecture Agenda
+1 Services
+	- It is simple Class
+	- It is used to write a BL 
+	- It is used for Code resualbilty
+	- used for code maintaintbilty
+	- It provide isolation to ur component 
+	- It is used to connect ur backend server 
+	- It is used for Auth.
+2 Dependancy Injection
+	
+
+
+
