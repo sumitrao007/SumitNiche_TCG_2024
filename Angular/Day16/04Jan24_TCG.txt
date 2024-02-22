@@ -1,0 +1,75 @@
+Last Lecture Agenda
+1 Services
+	- It is simple Class
+	- It is used to write a BL 
+	- It is used for Code resualbilty
+	- used for code maintaintbilty
+	- It provide isolation to ur component 
+	- It is used to connect ur backend server 
+	- It is used for Auth.
+2 Dependancy Injection
+
+
+Today's Lecture Agenda
+1 Http Services 
+2 Http Method
+	1 get 
+	2 post 
+	3 put 
+	4 delete
+	
+3 Http Request/Response
+
+Http Request
+	1 Header
+		- uri 
+		- Ip
+		- method
+		- auth token
+		- date 
+		- content Type 
+			- Pdf
+			- image
+			- text/html
+			- json
+		- route 
+		
+	2 Body 
+		- data
+			- json 
+			- text/html
+			- xml
+Http Response
+
+1 Header
+		- uri 
+		- Ip
+		- method
+		- auth token
+		- date 
+		- content Type 
+			- Pdf
+			- image
+			- text/html
+			- json
+		- route 
+		- status code 
+			1 2xx => success
+			2 3xx => redirection
+			3 4xx => client 
+			4 5xx => server side error 
+		
+	2 Body 
+		- data
+			- json 
+			- text/html
+			- xml
+	
+4 HttpClientModule
+	- HttpClient -service 
+5 @Injectable
+6 Observable
+	
+
+
+
