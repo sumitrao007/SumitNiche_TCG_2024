@@ -1,0 +1,44 @@
+<p>post works!</p>
+
+<div>
+    <label for="">Name </label>
+    <input #inputname type="text" placeholder="Enter the Name"><br><br>
+    <label for="">Phone no </label>
+    <input #inputphoneNo type="text" placeholder="Enter the Phone No"><br><br>
+    <button (click)="onSend(inputname.value,inputphoneNo.value)">Send</button>
+</div>
+
+<hr>
+
+<div [hidden]="isHidden">
+    <label for="">ID:</label>
+    <input [(ngModel)]="id" readonly type="text" placeholder="Enter the Id"><br><br>
+    <label for="">Name:</label>
+    <input [(ngModel)]="name" type="text" placeholder="Enter the Name"><br><br>
+    <label for="">Phone No:</label>
+    <input [(ngModel)]="phoneNo" type="text" placeholder="Enter the Phone No"><br><br>
+    <button (click)="onUpdate()" >Update</button>
+</div>
+
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Phone No</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students" >
+            <td> {{student.id}} </td>
+            <td> {{student.name}} </td>
+            <td> {{student.phoneno}} </td>
+            <td><button (click)="onEdit(student)" >Edit</button>
+                <button (click)="onDelete(student.id)" >Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

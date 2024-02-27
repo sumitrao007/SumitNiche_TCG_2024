@@ -1,0 +1,15 @@
+Last Lecture Agenda
+1 Post 
+2 put 
+3 delete
+
+Today's Lecture Agenda
+1 Error Handling
+2 Routing
+	steps
+	1 configure the route
+	2 use <router-outlet> => Component directive 
+	3 esatblish the link/navigate to the component
+
+
+
