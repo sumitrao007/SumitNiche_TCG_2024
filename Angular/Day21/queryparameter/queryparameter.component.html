@@ -1,0 +1,8 @@
+<p>queryparameter works!</p>
+<a routerLink="">Home</a>
+<hr>
+
+<h2> {{notifyData}} </h2>
+
+<input #inputMsg type="text" placeholder="Enter the Message"><br><br>
+<button (click)="onSend(inputMsg.value)" >Send</button>

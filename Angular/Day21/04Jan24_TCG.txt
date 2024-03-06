@@ -1,0 +1,14 @@
+Last Lecture Agenda
+1 Lazy Loading
+	- U hv to create a custom module/feature module  as well as routing module 
+	
+	ng g m user --routing 
+	
+2 Modify the Routing 
+
+Today's Lecture Agenda
+1 Subject
+	- It is Present in Rx jx lib 
+2 BehaviouralSubject
+
+
